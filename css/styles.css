@@ -32,7 +32,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 100 900;
-  font-display: swap;
+  font-display: optional;
   src: url("/fonts/inter-latin.woff2") format("woff2");
 }
 
@@ -40,7 +40,7 @@
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 100 900;
-  font-display: swap;
+  font-display: optional;
   src: url("/fonts/playfair-latin.woff2") format("woff2");
 }
 
@@ -233,8 +233,7 @@ h2 .blue {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(12px);
+  background: #fff;
   border-bottom: 0.5px solid var(--border);
   box-shadow: 0 1px 12px rgba(44, 26, 14, 0.06);
 }
