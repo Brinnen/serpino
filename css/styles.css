@@ -1,4 +1,4 @@
-/* Byrånamn — presentation i samma anda som en svensk SEO-sajt: beige, blått, guld. */
+/* Serpino — presentation i samma anda som en svensk SEO-sajt: beige, blått, guld. */
 
 :root {
   --blue: #033062;
@@ -554,15 +554,6 @@ a.btn,
 .intro p {
   color: var(--muted);
   font-weight: 300;
-}
-
-.placeholder-note {
-  font-size: 0.8rem;
-  color: var(--muted);
-  text-align: center;
-  padding: 0.7rem 1rem;
-  background: var(--gold-faint, #faf3e0);
-  border-bottom: 0.5px solid var(--border);
 }
 
 /* Cards */
