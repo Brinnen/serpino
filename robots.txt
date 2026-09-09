@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://serpino.se/sitemap.xml
+Sitemap: https://www.serpino.se/sitemap.xml
