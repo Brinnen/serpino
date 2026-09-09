@@ -10,9 +10,9 @@
   <meta property="og:title" content="Om oss | Serpino">
   <meta property="og:description" content="En SEO-byrå byggd mot hur den svenska marknaden faktiskt köper sök.">
   <meta property="og:locale" content="sv_SE">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/playfair-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/playfair-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
@@ -21,8 +21,8 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="logo" href="/">Serpino<span class="dot">.</span></a>
-      <input type="checkbox" id="nav-toggle" class="nav-checkbox">
-      <label for="nav-toggle" class="nav-toggle" aria-label="Öppna meny"><span></span><span></span><span></span></label>
+      <input type="checkbox" id="nav-toggle" class="nav-checkbox" aria-label="Öppna eller stäng menyn">
+      <label for="nav-toggle" class="nav-toggle"><span class="vh">Öppna meny</span><span></span><span></span><span></span></label>
       <nav class="nav" aria-label="Huvudmeny">
         <label for="nav-toggle" class="nav-close">Stäng</label>
         <ul class="nav-links">
