@@ -1399,25 +1399,148 @@ textarea {
 
 </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Köpa länkar",
-    "serviceType": "Outreach SEO",
-    "description": "Köpa länkar från sajter med riktig trafik. Manuell outreach, redaktionell placering, inga PBN.",
-    "url": "https://www.serpino.se/lankar/",
-    "areaServed": "SE",
-    "provider": {
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
       "@type": "ProfessionalService",
+      "@id": "https://www.serpino.se/#organization",
       "name": "Serpino",
-      "url": "https://www.serpino.se/"
+      "url": "https://www.serpino.se/",
+      "email": "hej@serpino.se",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.serpino.se/img/favicon.svg"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Sweden"
+      },
+      "availableLanguage": "sv",
+      "priceRange": "800+ SEK",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hej@serpino.se",
+        "contactType": "sales",
+        "availableLanguage": "sv",
+        "areaServed": "SE"
+      }
     },
-    "offers": {
-      "@type": "AggregateOffer",
-      "lowPrice": "800",
-      "priceCurrency": "SEK"
+    {
+      "@type": "WebSite",
+      "@id": "https://www.serpino.se/#website",
+      "url": "https://www.serpino.se/",
+      "name": "Serpino",
+      "inLanguage": "sv-SE",
+      "publisher": {
+        "@id": "https://www.serpino.se/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.serpino.se/lankar/#webpage",
+      "url": "https://www.serpino.se/lankar/",
+      "name": "Köpa länkar i Sverige | Outreach, inte PBN | Serpino",
+      "description": "Köpa länkar från sajter med riktig trafik. Manuell outreach, redaktionell placering, inga PBN. Start: 4 länkar för 5 000 kr. Engångsköp.",
+      "isPartOf": {
+        "@id": "https://www.serpino.se/#website"
+      },
+      "about": {
+        "@id": "https://www.serpino.se/#organization"
+      },
+      "inLanguage": "sv-SE",
+      "mainEntity": {
+        "@id": "https://www.serpino.se/lankar/#service"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.serpino.se/lankar/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Hem",
+          "item": "https://www.serpino.se/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Köp länkar",
+          "item": "https://www.serpino.se/lankar/"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.serpino.se/lankar/#service",
+      "name": "Köpa länkar",
+      "url": "https://www.serpino.se/lankar/",
+      "description": "Köpa länkar från sajter med riktig trafik. Manuell outreach, redaktionell placering, inga PBN.",
+      "provider": {
+        "@id": "https://www.serpino.se/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Sweden"
+      },
+      "serviceType": "Outreach SEO",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "800",
+        "priceCurrency": "SEK",
+        "offerCount": "3",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Start",
+            "price": "5000",
+            "priceCurrency": "SEK",
+            "description": "4 länkar, engångsköp"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.serpino.se/lankar/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vad kostar det att köpa länkar i Sverige?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Enskilda länkar från 800 kr, beroende på sajtens trafik och relevans. Startpaketet är 4 länkar för 5 000 kr. Dyrare sajter i hårda nischer kostar mer — vi visar priset på listan innan ni säger ja."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är det ett abonnemang?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej. Ni betalar för de länkar som publiceras. Vill ni ha fler tar ni ett nytt köp. Inget som dras varje månad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kan Google straffa köpta länkar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Massproducerade PBN-länkar är en risk. Redaktionella omnämnanden från sajter med riktiga läsare är hur webben alltid har fungerat. Vi säljer det senare, inte det förra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hur lång tid tar leveransen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Länklista inom 24 timmar. Publicering beror på sajternas redaktion — ofta dagar, ibland ett par veckor. Ni får besked per länk."
+          }
+        }
+      ]
     }
-  }
+  ]
+}
   </script>
 </head>
 <body>

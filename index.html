@@ -1403,17 +1403,162 @@ textarea {
 
 </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfessionalService",
-    "name": "Serpino",
-    "description": "SEO-byrå i Sverige. Outreach från sajter med riktig trafik, plus teknik och innehåll.",
-    "url": "https://www.serpino.se/",
-    "email": "hej@serpino.se",
-    "areaServed": "SE",
-    "availableLanguage": "sv",
-    "priceRange": "5000 SEK"
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.serpino.se/#organization",
+      "name": "Serpino",
+      "url": "https://www.serpino.se/",
+      "email": "hej@serpino.se",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.serpino.se/img/favicon.svg"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Sweden"
+      },
+      "availableLanguage": "sv",
+      "priceRange": "800+ SEK",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "hej@serpino.se",
+        "contactType": "sales",
+        "availableLanguage": "sv",
+        "areaServed": "SE"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tjänster",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Köpa länkar",
+              "url": "https://www.serpino.se/lankar/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Teknisk SEO",
+              "url": "https://www.serpino.se/teknisk-seo/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Innehålls-SEO",
+              "url": "https://www.serpino.se/innehall-seo/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Lokal SEO",
+              "url": "https://www.serpino.se/lokal-seo/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "E-handels-SEO",
+              "url": "https://www.serpino.se/e-handel-seo/"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "AI-sök",
+              "url": "https://www.serpino.se/ai-sok/"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.serpino.se/#website",
+      "url": "https://www.serpino.se/",
+      "name": "Serpino",
+      "inLanguage": "sv-SE",
+      "publisher": {
+        "@id": "https://www.serpino.se/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.serpino.se/#webpage",
+      "url": "https://www.serpino.se/",
+      "name": "SEO-byrå i Sverige | Länkar, teknik och innehåll | Serpino",
+      "description": "Svensk SEO-byrå. Outreach från sajter med riktig trafik, plus teknik, innehåll och lokal SEO. Inget abonnemang. Länkpriser från 800 kr.",
+      "isPartOf": {
+        "@id": "https://www.serpino.se/#website"
+      },
+      "about": {
+        "@id": "https://www.serpino.se/#organization"
+      },
+      "inLanguage": "sv-SE",
+      "mainEntity": {
+        "@id": "https://www.serpino.se/#faq"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.serpino.se/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Vad gör Serpino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kärnan är outreach från sajter med riktig trafik. Priser, villkor och hur ett köp går till står på köp länkar. Teknik, innehåll och lokal SEO finns som avgränsade uppdrag."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Är det ett abonnemang?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej. Ni betalar för de länkar som publiceras, eller för ett avgränsat SEO-uppdrag. Inget som dras varje månad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vad kostar övrig SEO?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Teknisk genomgång från 18 000 kr, lokal SEO som avgränsat arbete från 24 000 kr, och större tillväxt- eller e-handelsinsatser på offert. Det är tillval när sajten ska bära länkarna."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Garantierar ni position ett på Google?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej. Ingen seriös byrå kan styra Google. Vi garanterar arbete, prioritering och uppföljning mot affärsmål."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Arbetar ni bara i Stockholm?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nej. Hela Sverige. Stockholm, Göteborg och Malmö har egna sidor eftersom söktrycket ser olika ut."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
